@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>BootStarp exersices</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="page1.html">PAGE 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">PAGE 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html">PAGE 3
+                        <span class="badge bg-primary">Hot</span>
+                    </a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        PAGE3 DROPDOWN
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+                <form class="d-flex">
+                    <input class="form-control me-2 col sm-5" type="email" placeholder="E-mail" aria-label="Search">
+                    <input class="form-control me-2 col sm-5" type="password" placeholder="password"
+                           aria-label="Search">
+                    <button class="btn btn-outline-success col md-2" type="submit">Log In</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</nav>
+<!-- Background image -->
+<div
+        class=" text-center bg-image"
+        style="
+      background-image: url('https://images.pexels.com/photos/165505/pexels-photo-165505.jpeg?cs=srgb&dl=pexels-sebastian-voortman-165505.jpg&fm=jpg');
+      height: 400px;
+      background-size: cover ;
+
+    ">
+    <div class="mask " style="background-color: rgba(0,0,0,0.4); height: 100% ;width: 100% ">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+                <h1 class="mb-3">HERE IS THE HEADING</h1>
+                <h4 class="mb-3">HERE IS SUBHEADING</h4>
+                <a class="btn btn-outline-light btn-lg " id="btnLearn" href="#!" role="button">Learn more about me!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col col-md-4">HEADING 1
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur deleniti ducimus facilis
+                fugiat
+                fugit obcaecati quibusdam quisquam unde vero. Atque beatae corporis eum labore molestias nam qui
+                reprehenderit sequi!
+            </div>
+            <div>
+                <button type="button" class="btn btn-danger col col-md-4">view details
+                    <i class="fa fa-spinner" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="col col-md-4">HEADING 2
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at atque autem blanditiis cum
+                dolorem
+                ducimus, eligendi fugiat iusto labore nobis non, omnis pariatur quas quibusdam rem, saepe sint tempore!
+            </div>
+            <div>
+                <button type="button" class="btn btn-danger col col-md-4">view details
+                    <i class="fa fa-spinner" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="col col-md-4">HEADING 3
+            <span class="badge bg-primary">NEW!</span>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consectetur dicta distinctio doloribus
+                ea
+                et molestiae perspiciatis quisquam reprehenderit totam? A aperiam cumque dolorem excepturi inventore
+                odit
+                reiciendis repellat repellendus.
+            </div>
+            <div>
+                <button type="button" class="btn btn-danger col col-md-4">view details
+                    <i class="fa fa-spinner" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+.profileImg{
+    margin: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.h3{
+    text-align: center;
+    color: red;
+}
+
+h1, p{
+    text-align: center;
+}
+label{
+    display:block;
+    margin:1em 0 .2em;
+}
+/* single-line text, checkbox, and button */
+input, select, textarea{
+    display:block;
+    width:100%;
+    padding:.3em;
+    font-size:20px;
+    background-color:#fbfbfb;
+    border:solid 1px #CCC;
+    resize:vertical;
+}
+textarea{
+    min-height:180px;
+}
+select{
+    color:indigo;
+}
+option{
+    color:blue;
+    background: lavenderBlush;
+}
+input[type=checkbox]{
+    display:inline;
+    width:auto;
+    color:red;
+}
+
+input[type=submit]{
+    background:lightcoral;
+    margin:1em 0 0;
+    color:white;
+    border:none;
+    border-radius:8px;
+    transition:all .3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+    background: lavenderBlush;
+}
+
+/* hover and focus states */
+input[type=submit]:hover,
+input[type=submit]:focus{
+    background: lightgreen;
+    outline:none;
+}
+
+@media screen and (min-width:600px) {
+    /*  make the form 2 columns */
+    form:after{
+        content:'';
+        display:block;
+        clear:both;
+    }
+    .column{
+        width:50%;
+        padding:1em;
+        float:left;
+    }
+}
+
+
+
