@@ -86,12 +86,111 @@
 //     console.log(`${key} ${details[key]}`);
 // }
 
-//EXERCISE 7
+// EXERCISE 7
 // let names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"]
 // let secretName = names.map((name) => name[0]).join(' ')
+// console.log(secretName)
 // let chars = [];
 // for (let i = 0; i < secretName.length; i++) {
 //     chars.push(secretName.charAt(i));
 // }
 // chars = chars.sort().join("");
 // console.log(chars);
+
+// EXERCISE XP GOLD
+
+//EXERCISE 1
+// let building = {
+//     number_levels: 4,
+//     number_of_apt_by_level: {
+//         "1": 3,
+//         "2": 4,
+//         "3": 9,
+//         "4": 2,
+//     },
+//     name_of_tenants: ["Sarah", "Dan", "David"],
+//     number_of_rooms_and_rent: {
+//         "Sarah": [3, 990],
+//         "Dan": [4, 1000],
+//         "David": [1, 500],
+//     },
+// }
+// write the number of levels in the building.
+// console.log(building.number_levels)
+//write how many apartments are on levels 1 and 3.
+// console.log(building.number_of_apt_by_level[1],building.number_of_apt_by_level[3])
+// write the name of the second tenant and the number of rooms he has in his apartment.
+// console.log(building.name_of_tenants[1],building.number_of_rooms_and_rent.Dan[0])
+//Check if the sum of Sarah and David’s rent is bigger than Dan’s rent
+// console.log(building.number_of_rooms_and_rent.Sarah[1]+building.number_of_rooms_and_rent.David[1] > building.number_of_rooms_and_rent.Dan[1])
+
+//EXERCISE 2
+//Loop through the array above and determine whether or not each number is divisible by three.
+//Each time you loop console.log “true” or “false”
+// let numbers = [123, 8409, 100053, 333333333, 7]
+// for(let number of numbers){
+//     if(number%3){
+//         console.log(false)
+//     }else console.log(true)
+// }
+
+//EXERCISE 3
+// let age = [20,5,12,43,98,55];
+// let total=0;
+// for(let i = 0;i<age.length;i++){
+//     total += age[i]
+//     console.log(total)
+// }
+
+//EXERCISE XP NINJA
+
+//EXERCISE 1
+// //Each object should also have a key which value is a function (ie. A method), that calculates the Body Mass Index (BMI) of each person
+// // Outside of the objects, create a JS function that compares the BMI of both objects.
+// // Display the name of the person who has the largest BMI.
+// let object1 = {
+//     fullName: 'liad',
+//     mass: '85',
+//     height: '1.78',
+//     value: function bmicheck() {
+//         return object1.mass / object1.height ** 2
+//     }
+// }
+// // console.log(object1.value())
+//
+// let object2 = {
+//     fullName: 'eden',
+//     mass: 55,
+//     height: 1.65,
+//     value: function bmicheck() {
+//         return object2.mass / object1.height ** 2
+//     }
+// }
+//
+// // console.log(object2.value())
+//
+// function compare() {
+//     if (object2.value() < object1.value()) {
+//         console.log(object1.fullName + "has the larget BMI")
+//     } else console.log(object2.fullName + "has the larget BMI")
+// }
+// compare(object1, object2)
+
+//EXERCISE 2
+// let grades=[11,23,56,78,90,66,45]
+// function findAvg(gradesList){
+//     let tot = 0
+//     let sofi = 0
+//     for(let i =0;i<grades.length;i++){
+//         tot += grades[i]
+//         sofi = tot / grades.length
+//
+//     }
+//     if(sofi>65){
+//         console.log('you pass')
+//     }else console.log('you didnt pass')
+//     // console.log(tot)
+//     // console.log(sofi)
+// }
+// findAvg(grades)
+
