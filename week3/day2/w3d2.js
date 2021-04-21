@@ -100,3 +100,46 @@
 // }
 // let btnCalc=document.getElementById("submit");
 // btnCalc.onclick=calc;
+
+//EXERCISE XP GOLD
+
+//exercise 1
+//Display the value of the selected option.
+//Add an additional option to the select tag:
+//The newly added option should be selected by default. - UNFINISHED
+// const display = () => {
+//     let result = document.getElementById("genres");
+//     let resultValue = document.getElementById("genres").value;
+//     console.log(resultValue)
+//     let option = document.createElement("option");
+//     option.innerText = 'Hip-Hop'
+//     result.add(option)
+//
+// }
+// display()
+
+//EXERCISE 2
+// const removeColor = () => {
+//     let color = document.getElementById("colorSelect");
+//     color.remove(color.selectedIndex);
+// }
+
+//EXERCISE 3
+let shoppingList=[]
+let form = document.createElement("form");
+form.setAttribute('method',"post");
+
+let input = document.createElement("input");
+input.setAttribute('type',"text");
+
+let button = document.createElement("input");
+button.setAttribute('type',"submit");
+button.addEventListener('click',addItem)
+form.appendChild(input);
+form.appendChild(button);
+
+document.getElementsByTagName('body')[0].appendChild(form);
+
+const addItem = () => {
+  shoppingList.push()
+}
