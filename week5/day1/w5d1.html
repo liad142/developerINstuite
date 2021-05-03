@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+//EXERCISE 1
+<form action="https://www.google.com" method="GET">
+ write youre name : <input type="text" name="name">
+ write your message: <textarea name="story" id="textarea1"></textarea>
+ send it to us : <input type="submit" value="Submit">
+  //DATA WILL APPEAR IN THE URL
+</form>
+
+
+//EXERCISE 2
+
+<form action="https://www.google.com" method="POST">
+  write youre name : <input type="text" name="name">
+  write your message: <textarea name="story" id="textarea2"></textarea>
+  send it to us : <input type="submit" value="Submit">
+  //DATA WILL APPEAR IN THE FORM BODY
+</form>
+
+
+
+//DAILY CHALLENGE
+<!--<form action="" method="GET" id="myForm" onsubmit="return getJson()">-->
+<!--  <input type="text" id="fname" value="">-->
+<!--  <input type="text" id="lname" value="">-->
+<!--  <input type="submit" value="submit">-->
+<!--</form>-->
+
+
+<form action="" method="GET" id="myForm" onsubmit="return isValid()">
+    <input type="text" id="fname" value="">
+    <input type="text" id="lname" value="">
+    <input type="submit" value="submit" onclick="getJson()">
+</form>
+
+
+<script src="w5d1.js"></script>
+</body>
+</html>
