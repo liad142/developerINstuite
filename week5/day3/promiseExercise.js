@@ -171,3 +171,26 @@
 //   console.log('err :', err);
 // })
 
+//EXERCISE GOLD
+// let urls = [
+//     'https://swapi.dev/api/people/1',
+//     'https://swapi.dev/api/people/2',
+//     'https://swapi.dev/api/people/3',
+//     'https://swapi.dev/api/people/4',
+//
+// ]
+// let requests = urls.map(url => fetch(url));
+// Promise.all(requests)
+//
+//     .then(requests => {
+//         requests.forEach((request,index)=>{
+//             index++
+//             console.log(request)
+//             console.log(index)
+//         })
+//     })
+//
+//     .catch(error =>{
+//         console.log("error" + error)
+//     })
+
