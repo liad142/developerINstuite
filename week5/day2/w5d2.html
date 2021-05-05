@@ -7,12 +7,23 @@
 <body>
 
 
-    <input type="search" name="search" id="search">
-    <button onclick="data()">search</button>
+<!--    <input type="search" name="search" id="search">-->
+<!--<div class="container"></div>-->
+<!--<script src="w5d2.js"></script>-->
 
 
-<div class="container"></div>
+<input type="text" id="search" >
+<input type="number" id="limit" value="1" min="1" max="10" >
 
-<script src="w5d2.js"></script>
+<button type="button" name="button" onclick="fetchDAta()">Get Gify Data</button>
+<button type="button" name="button" onclick="nextImages()">Next 5 photos</button>
+
+<button name="button" onclick="deleteAll()">DELETE ALL</button>
+
+<div id="root"></div>
+
+
 </body>
+
+<script src="practice.js"></script>
 </html>
